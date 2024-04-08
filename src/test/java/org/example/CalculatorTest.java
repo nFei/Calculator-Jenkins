@@ -40,4 +40,10 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assertEquals(calculator.multiplication(4, 4), 16);
     }
+    
+    @Test
+    public void fiveTimesTwo(){
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.multiplication(5, 2), 10);
+    }
 }
