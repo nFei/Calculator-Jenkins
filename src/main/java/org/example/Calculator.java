@@ -5,7 +5,7 @@ package org.example;
 public class Calculator {
 
     public static void main(String[] args){
-        System.out.println("Hello world v0.3");
+        System.out.println("Hello world v0.4");
     }
 
     public double sum(double a, double b){
